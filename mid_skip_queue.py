@@ -115,7 +115,3 @@ class MidSkipPriorityQueue(MidSkipQueue):
             self._tail = self._front[self._k:]
 
 
-q = MidSkipQueue(1)
-q.append(-1)
-q += (-2, -3)
-print("MidSkipQueue :", q)
